@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pbisp-fx-sample-client-side-solution",
+    "id": "adf9ac20-024c-4c6b-9922-3713e96c256e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Contoso Inc",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Power BI Service",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Power BI Service",
+        "scope": "Dataset.Read.All"
+      },
+      {
+        "resource": "Power BI Service",
+        "scope": "Report.Read.All"
+      },
+      {
+        "resource": "Power BI Service",
+        "scope": "Dashboard.Read.All"
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/pbisp-fx-sample.sppkg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d2371f0f-7e42-4489-97d6-a32fe33fd059",
+  "alias": "EmbedPowerBiReportWebPart",
+  "componentType": "WebPart", 
+  "version": "*",
+  "manifestVersion": 2,  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Sample WebParts" },
+    "title": { "default": "CPT React Report" },
+    "description": { "default": "A sample of using React to embed a Power BI report." },
+    "officeFabricIconFontName": "PowerBiLogo",
+    "properties": {
+      "workspaceId": "",
+      "reportId": "",
+      "widthToHeight": "175"
+    }
+  }]
+}
